@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .signin-body {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+  }
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    width: 300px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .form-container div,a {
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+  }
+
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.6rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .player-body {
+    background: #2c3e50;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+ 
+  
